@@ -3,6 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <conio.h>
+
 void verificar(char sexo[]){
 	if (strcmp(sexo,"m")==0||strcmp(sexo,"M")==0){
 		printf("Mulher \n");
@@ -27,7 +28,7 @@ int main(void){
 	scanf("%d",&idade);
 	
 	printf("nome: %s \n", nome);
-	printf("sexo: ");verificar(sexo);
+	printf("sexo: "); verificar(sexo);
 	printf("idade: %d", idade);
 	
 	
